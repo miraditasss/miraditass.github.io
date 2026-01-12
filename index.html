@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Miradass - Portafolio</title>
+  <meta name="description" content="Portafolio Miradass" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="faviconMiradass.png" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="faviconMiradass.png" />
+  <meta name="theme-color" content="#0a0b0d" />
+  <style>
+    .typing::after { content: '▍'; animation: blink 1s step-end infinite; margin-left: 6px; color: var(--text-0); }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Principal">
+      <a href="#home" class="logo" aria-label="Ir al inicio">
+        <span class="logo-moon" aria-hidden="true">⦿</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#home" class="active" aria-current="page">Inicio</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#reviews">Reseñas</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Background Layers -->
+  <div id="bg"></div>
+
+  <main>
+    <!-- Home -->
+    <section id="home" class="section hero" aria-label="Inicio">
+      <div class="container">
+        <h1 class="title glow typing" data-text="Portafolio Miradass"></h1>
+        <p class="subtitle">Explora lo que hago. 👀</p>
+        <div class="cta">
+          <a href="#about" class="btn btn-outline">Conóceme</a>
+          <a href="#experience" class="btn btn-solid">Ver Experiencia</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about" aria-label="Sobre mí">
+      <div class="container grid-2">
+        <div class="about-text reveal">
+          <h2 class="section-title">Sobre mí</h2>
+          <p>
+            Mi nombre es Tomás, tengo 16 años y cuento con más de 4 años de experiencia como SS Manager. Me especializo tanto en la gestión de staff (Manager) como en la gestión de conocimientos y procedimientos relacionados con Screenshare (SS Manager), desempeñando uno u otro rol según las necesidades prioritarias del servidor.
+          <p>
+            Actualmente soy estudiante de Ingeniería en Cyberseguridad, me permito desarrollar una buena organización y gestión del tiempo. Gracias a ello, puedo comprometerme a dedicar aproximadamente 4 horas diarias al servidor de manera constante y responsable.
+
+          <div class="about-cards">
+            <article class="info-card reveal">
+              <span class="info-title">SS Manager</span>
+              <span class="info-badge">ScreenShare</span>
+            </article>
+            <article class="info-card reveal">
+              <span class="info-title">Manager</span>
+              <span class="info-badge">Staff Team</span>
+            </article>
+          </div>
+        </div>
+        <div class="about-image reveal" aria-hidden="true">
+          <div class="silhouette" aria-hidden="true">
+            <img src="SkinMiradass.png" alt="Perfil de Miradass" class="profile-img" />
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section experience" aria-label="Experiencia">
+      <div class="container">
+        <h2 class="section-title center">Experiencia</h2>
+        <div class="cards timeline">
+          <article class="card reveal">
+            <div class="card-media">
+              <img src="TiltedMiradass.png" alt="Tilted" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3>Tilted Network</h3>
+                <span class="badge-year">2025</span>
+              </div>
+              <p>SS Manager</p>
+              <div class="card-tags"><span class="tag">ScreenShare</span><span class="tag">Staff Team</span></div>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <img src="MineSplashMiradass.png" alt="MineSplash" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3>MineSplash</h3>
+                <span class="badge-year">2026</span>
+              </div>
+              <p>SS Manager</p>
+              <div class="card-tags"><span class="tag">ScreenShare</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <img src="KeniBoxMiradass.png" alt="KeniBox" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3>KeniBox</h3>
+                <span class="badge-year">2025</span>
+              </div>
+              <p>SS Manager</p>
+              <div class="card-tags"><span class="tag">ScreenShare</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <img src="GGCraftMiradass.png" alt="GGCraft" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3>GGCraft</h3>
+                <span class="badge-year">2025</span>
+              </div>
+              <p>SS Manager</p>
+              <div class="card-tags"><span class="tag">ScreenShare</span><span class="tag">Moderación</span></div>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <img src="BunderCraftMiradass.png" alt="BunderCraft" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3>BunderCraft</h3>
+                <span class="badge-year">2025</span>
+              </div>
+              <p>SS Mentor</p>
+              <div class="card-tags"><span class="tag">ScreenShare</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <img src="MineBackMiradass.png" alt="MineBack" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3>MineBack</h3>
+                <span class="badge-year">2026</span>
+              </div>
+              <p>SS Coordinator</p>
+              <div class="card-tags"><span class="tag">ScreenShare</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <img src="MineDayMiradass.png" alt="MineDay" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3>MineDay</h3>
+                <span class="badge-year">2025</span>
+              </div>
+              <p>SS Coordinator</p>
+              <div class="card-tags"><span class="tag">ScreenShare</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <img src="DiosesMcMiradass.png" alt="DiosesMc" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3>DiosesMc</h3>
+                <span class="badge-year">2025</span>
+              </div>
+              <p>Coordinator</p>
+              <div class="card-tags"><span class="tag">Staff Team</span><span class="tag">Manegement</span></div>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <img src="SnowMcMiradass.png" alt="SnowMc" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3>SnowMC</h3>
+                <span class="badge-year">2026</span>
+              </div>
+              <p>SS Manager</p>
+              <div class="card-tags"><span class="tag">ScreenShare</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <img src="SkyMcMiradass.png" alt="SkyMc" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3>SkyMc</h3>
+                <span class="badge-year">2024</span>
+              </div>
+              <p>SS Manager</p>
+              <div class="card-tags"><span class="tag">ScreenShare</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <img src="SimplyMcMiradass.png" alt="SimplyMc" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3>SimplyMc</h3>
+                <span class="badge-year">2024</span>
+              </div>
+              <p>SS Manager</p>
+              <div class="card-tags"><span class="tag">ScreenShare</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <img src="PrismaMcMiradass.png" alt="PrismaMc" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <h3>PrismaMc</h3>
+                <span class="badge-year">2020</span>
+              </div>
+              <p>SS Team</p>
+              <div class="card-tags"><span class="tag">ScreenShare</span><span class="tag">Staff Team</span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="section reviews" aria-label="Reseñas">
+      <div class="container">
+        <h2 class="section-title center">Reseñas</h2>
+        <div class="carousel" role="region" aria-roledescription="carrusel" aria-label="Testimonios">
+          <button class="carousel-btn prev" aria-label="Anterior">‹</button>
+          <div class="carousel-track">
+            <figure class="review-card">
+              <figcaption>
+                <span class="review-icon" aria-hidden="false"><img src="GGCraftMiradass.png" alt="@zpanochita"></span>
+                <span class="review-name">— @zpanochita </span>
+                <span class="review-stars" role="img" aria-label="5 de 5 estrellas">
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                </span>
+              </figcaption>
+              <blockquote>“En lo que estuviste dentro de GGCraft, fuiste un gran aporte en todo lo que conlleva la SS, enseñaste, aplicaste y diste de la mayoría de tu tiempo libre, eso habla muy bien de ti, para enseñarle a los staffs que sabían menos, fuiste excelente staff y aporte dentro del staff y SS Team, recomendadisímo y un gustazo haber trabajado contigo.”</blockquote>
+            </figure>
+            <figure class="review-card">
+              <figcaption>
+                <span class="review-icon" aria-hidden="false"><img src="KeniBoxMiradass.png" alt="@kv4"></span>
+                <span class="review-name">— @kv4</span>
+                <span class="review-stars" role="img" aria-label="5 de 5 estrellas">
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                </span>
+              </figcaption>
+              <blockquote>“Estuviste bastante tiempo en KeniBox, y fuiste un gran aporte haciendo guías, workshops y tal. Gracias por haber trabajado con KeniBox y pues todo. Recomendadisimo 10/10”</blockquote>
+            </figure>
+            <figure class="review-card">
+              <figcaption>
+                <span class="review-icon" aria-hidden="false"><img src="SnowMcMiradass.png" alt="@Matt"></span>
+                <span class="review-name">— @Matt</span>
+                <span class="review-stars" role="img" aria-label="4 de 5 estrellas">
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-regular fa-star" aria-hidden="true"></i>
+                </span>
+              </figcaption>
+              <blockquote>“Para el poco tiempo que estuvo dentro del staff, como ss manager, realizo una buena guia de ss.”</blockquote>
+            </figure>
+
+            <figure class="review-card">
+              <figcaption>
+                <span class="review-icon" aria-hidden="false"><img src="SimplyMcMiradass.png" alt="@Fly"></span>
+                <span class="review-name">— @Fly</span>
+                <span class="review-stars" role="img" aria-label="5 de 5 estrellas">
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                </span>
+              </figcaption>
+              <blockquote>“Bueno, en lo que estuviste en SkyMc, además del mejor staff en actividad, pruebas y responsabilidad, fuiste una gran ayuda haciendo el Discord del
+SS Team y las guías. Recomendado”</blockquote>
+            </figure>
+          </div>
+          <button class="carousel-btn next" aria-label="Siguiente">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact" aria-label="Contacto">
+      <div class="container">
+        <h2 class="section-title center">Contacto</h2>
+        <div class="embeds">
+          <article class="embed reveal discord-embed">
+            <header class="embed-head">Discord</header>
+            <div class="embed-body">
+              <div class="embed-info">
+                <h3>Usuario</h3>
+                <p>.diagtrack</p>
+              </div>
+              <img src="Miradass.png" alt="Foto de perfil" class="discord-avatar" width="60" height="60">
+            </div>
+          </article>
+          <article class="embed reveal">
+            <header class="embed-head">EZ Bio</header>
+            <div class="embed-body">
+              <h3>Perfil</h3>
+              <p><a href="https://e-z.bio/miradass" target="_blank" rel="noopener">e-z.bio/miradass</a></p>
+            </div>
+          </article>
+          <article class="embed reveal">
+            <header class="embed-head">Otros enlaces</header>
+            <div class="embed-body">
+              <ul>
+                <li><a href="https://es.namemc.com/search?q=miradass" target="_blank" rel="noopener">NameMC</a></li>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlFDFRlvJSWcXtzpsQgrbkmNRDlQbpRmcjnfSzzQnRQdxxzsDLtfXqcxnCCbMsTGHxDbVV" target="_blank" rel="noopener">GMail</a></li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Miradass</span>
+      <div class="footer-stars" aria-hidden="true"></div>
+    </div>
+  </footer>
+
+  <script>
+    (function typingTitle(){
+      const prefers = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const el = document.querySelector('.title.typing');
+      if (!el) return;
+      const text = el.getAttribute('data-text') || '';
+      if (prefers) { el.textContent = text; return; }
+      el.textContent = '';
+      let i = 0;
+      const speed = 70;
+      function step(){
+        if (i < text.length) {
+          el.textContent += text.charAt(i);
+          i++;
+          setTimeout(step, speed);
+        }
+      }
+      step();
+    })();
+  </script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
